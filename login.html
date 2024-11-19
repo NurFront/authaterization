@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="csss/login.css">
+</head>
+<body>
+    <h1 class="logo">Вход</h1>
+    <form onsubmit="login(event)">
+        <input type="text" id="username" class="name" placeholder="Введите имя..."><br><br>
+        <input type="password" id="password" class="pass" placeholder="Введите пароль..."><br><br>
+        <button type="submit" class="btn" id="btns">Войти</button>
+    </form>
+
+    <div class="txt" id="txt">Заполните поля</div>
+    <a href="form.html" class="hrf">Ещё нет аккаунта регистрируйтесь</a>
+
+    <script src="./scripts/login.js"></script>
+</body>
+</html>

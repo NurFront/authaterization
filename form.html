@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="csss/form.css">
+</head>
+<body>
+    <h1 class="logo">Введите данные</h1>
+    <form onsubmit="saveData(event)">
+        <input type="text" id="username"  class="name"><br><br>
+        <input type="password" id="password" class="pass"><br><br>
+        <button type="submit" id="btns" class="btn">Отправить</button>
+    </form>
+
+    <div class="txt" id="txt">Заполните поля</div>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>
